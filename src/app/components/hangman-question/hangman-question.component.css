@@ -1,0 +1,21 @@
+.characters {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin: 30px auto;
+    flex-wrap: wrap;
+}
+
+.character {
+    padding-bottom: 8px;
+    min-width: 20px;
+    min-height: 20px;
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+    .character {
+      min-width: 13px;
+      min-height: 13px;
+    }
+  }

@@ -1,0 +1,17 @@
+.mistakes-count {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.man-bounce {
+    animation: shimmy 1s infinite;
+    animation-direction: alternate;
+}
+@keyframes shimmy {
+    0% {
+        transform: translate(0,0);
+    }
+    100% {
+        transform: translate(0px, 10px);
+    }
+}

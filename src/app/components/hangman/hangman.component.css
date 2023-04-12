@@ -1,0 +1,31 @@
+.hangman {
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.categoria {
+    color: #5D7723;
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+.btn {
+    display: flex;
+    background-color: #5D7723;
+    color: #F0F0F0;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+
+.btn:hover{
+    background-color: #B3A943
+}
